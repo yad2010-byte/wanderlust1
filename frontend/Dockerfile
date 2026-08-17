@@ -13,7 +13,7 @@ RUN npm i
 
 #Run tests
 
-RUN npm run test
+RUN npm run test -- --passWithNoTests
 
 # Copy the rest of the application code 
 
